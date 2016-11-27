@@ -30,8 +30,10 @@ public class Saluda {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		
-		
+		System.out.println("¿Cual es tu nombre?");
+		 Scanner nombre=new Scanner(System.in);
+		 //nombre=entrada.next();
+	     System.out.println("¡Hola!"+nombre); 
 		
 		 
 	}
